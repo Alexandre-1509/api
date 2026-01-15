@@ -14,5 +14,12 @@
 
 <h3>Funcionalidades Principais</h3>
 <ul>
-  <li> <b>Autenticação Segura:</b> Cadastro e login com hash de senhas e tokens jwt</li>
+  <li> <b>Autenticação Segura:</b> Cadastro e login com hash de senhas e token JWT.</li>
+  <li><b>Gestão de Habilidades (N:M):</b> Usuários podem se associar a múltiplas habilidades com campos extras (Nivel e Tipo - Ensinar/Aprender).</li>
+  <li><b>Validação Rigorosa</b> Uso de middlewares globais com Yup para garantir a integridade dos dados antes de chegarem ao banco.</li>
+  <li><b>Arquitetura Híbrida: * Postgres: Dados estruturados (Users, Skills).</li>
+    <ul>
+      <li><b>MongoDB:</b> Dados flexíveis e de alta escrita (Logs de troca e Reviews)</li>
+    </ul>
+    <li><b>Segurança de Dados:</b> Uso de UUIDs em vez de IDs sequenciais para evitar exposição da volumetria do banco via URL</li>
 </ul>
