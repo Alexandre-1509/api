@@ -28,6 +28,6 @@
 <p>O projeto utiliza um relacionamento <b>Many-to-Many</b> entre <i>Users</i> e <i>Skills</i> através de uma tabela pivot chamada <i>UserSkills</i></p>
 <b>Campos extras na tabela pivot:</b>
 <ul>
-  <li><i>level:</i> Iniciante, Intermediário, Avançado</li>
-  <li><i>type:</i> Ensinar, Aprender</li>
+  <li>level: Iniciante, Intermediário, Avançado</li>
+  <li>type: Ensinar, Aprender</li>
 </ul>
