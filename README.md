@@ -31,3 +31,32 @@
   <li>level: Iniciante, Intermediário, Avançado</li>
   <li>type: Ensinar, Aprender</li>
 </ul>
+<h3>🛣️ Principais Endpoints</h3>
+<table>
+  <tr>
+    <th>Método</th>
+    <th>Rota</th>
+    <th>Descrição</th>
+  </tr>
+  <tr>
+    <td>POST</td>
+    <td>/users</td>
+    <td>Cria um novo usuário</td>
+  </tr>
+  <tr>
+    <td>POST</td>
+    <td>/login</td>
+    <td>Autenticação (Login)</td>
+  </tr>
+  <tr>
+    <td>POST</td>
+    <td>/my-skills</td>
+    <td>Associar habilidade ao perfil (Protegida)</td>
+  </tr>
+</table>
+<h3>👨‍💻 Diferenciais Técnicos Implementados</h3>
+<ul>
+  <li><b>Pattern Service:</b> Lógica de negócio isolada dos Controllers</li>
+  <li><b>Generic Validation Middleware:</b> Um único middleware que válida diferentes esquemas de dados</li>
+  <li><b>Tratamento de Erros:</b> Respostas padronizadas para erros de validação e de banco de dados.</li>
+</ul>
