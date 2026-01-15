@@ -18,7 +18,7 @@
   <li> <b>Autenticação Segura:</b> Cadastro e login com hash de senhas e token JWT.</li>
   <li><b>Gestão de Habilidades (N:M):</b> Usuários podem se associar a múltiplas habilidades com campos extras (Nivel e Tipo - Ensinar/Aprender).</li>
   <li><b>Validação Rigorosa</b> Uso de middlewares globais com Yup para garantir a integridade dos dados antes de chegarem ao banco.</li>
-  <li><b>Arquitetura Híbrida</b>: * Postgres: Dados estruturados (Users, Skills).</li>
+  <li><b>Arquitetura Híbrida: * Postgres</b>: Dados estruturados (Users, Skills).</li>
     <ul>
       <li><b>MongoDB:</b> Dados flexíveis e de alta escrita (Logs de troca e Reviews)</li>
     </ul>
